@@ -1,0 +1,59 @@
+{
+  "name": "covid-19-expert-system-api",
+  "version": "1.0.0",
+  "description": "covid-19-expert-system-api-1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint bin test",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^5.18.1",
+    "@joi/date": "^2.1.0",
+    "axios": "^0.24.0",
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.1.0",
+    "confidence": "^5.0.1",
+    "docx": "^7.4.0",
+    "dotenv": "^10.0.0",
+    "fast-crc32c": "^2.0.0",
+    "fcm-node": "^1.6.1",
+    "handlebars": "^4.7.7",
+    "image-to-base64": "^2.2.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.29.4",
+    "node-cron": "^3.0.2",
+    "node-xlsx": "^0.21.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "pg": "^8.7.1",
+    "puppeteer": "^13.5.1",
+    "redis": "^3.0.2",
+    "restify": "^8.6.0",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-errors": "^8.0.2",
+    "serve-static-restify": "^3.0.0",
+    "utf8": "^3.0.0",
+    "uuid": "^8.3.2",
+    "validate.js": "^0.12.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^2.0.15"
+  }
+}
